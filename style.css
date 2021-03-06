@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: grey;
+    -webkit-appearance: none;
+}
+
+#masterbox{
+    background-color: rgb(84,126,45);
+    border-style: solid;
+    border-color: rgb(214,192,120);
+    border-width: 2px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+    justify-items: center;
+}
+
+#box1, #box2, #box3{
+    background-color: rgb(214,192,120);
+    height: 300px;
+    margin: 5px;
+    width: 300px;
+    border-radius: 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+    display:block;
+    padding: 5px;
+}
+
+#input1{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 13px;
+    font-weight: 500;
+    display: block;
+    box-sizing: border-box;
+    padding: 5px;
+    padding-left: 10px;
+    margin: 5px;
+    height: 35px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(84,126,45);
+    background-color: rgb(236, 222, 175);
+    color: rgb(84,126,45);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    bottom: 9px;
+    width: 87%;
+    outline: none;
+}
+
+#input1:hover{
+    background-color: rgb(217, 241, 250);;
+}
+
+#button1{
+    box-sizing: border-box;
+    margin: 5px;
+    height: 55px;
+    width: 55px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(84,126,45);
+    background-color: rgb(228, 210, 152);
+    color: rgb(84,126,45);
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    position:relative;
+    bottom:69px;
+    margin-left: auto;
+    outline: none;
+}
+
+#button1:hover{
+    background-color: rgb(231, 240, 148);
+}
+
+#p1{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 12px;
+    color: rgb(245, 218, 248);
+    background-color: rgb(84,126,45);
+    padding: 10px;
+    padding-bottom: 20px;
+    margin: 5px;
+    height: fit-content;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: block;
+    }
+
+#p2{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 14px;
+    color: rgb(202, 237, 240);
+    background-color: rgb(84,126,45);
+    padding: 10px;
+    margin: 5px;
+    height:fit-content;
+    border-radius: 10px;
+    display: block;
+    position: relative;
+    bottom: 65px;
+}
+
+#p3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    color: rgb(84,126,45);
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 9px;;
+    height: fit-content;
+    border-radius: 10px;
+    display: block;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(84,126,45);
+}
+
