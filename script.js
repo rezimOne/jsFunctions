@@ -1,42 +1,37 @@
 function createBox(){
   let masterbox = document.createElement('div');
   masterbox.id = "masterbox";
-
   let box1 = document.createElement('div');
   box1.id = "box1";
-
-  let box2 = document.createElement('div');
-  box2.id = "box2";
-
-  let box3 = document.createElement('div');
-  box3.id = "box3";
-
+  let navbar = document.createElement('div');
+  navbar.className = 'navbar';
   let p1 = document.createElement('p');
   p1.id = "p1";
-
   let p2 = document.createElement('p');
   p2.id = "p2";
-
   let p3 = document.createElement('p');
   p3.id = "p3";
-
-  let input1 = document.createElement('input');
-  input1.id = "input1";
-
   let button1 = document.createElement('button');
   button1.id = 'button1';
   button1.textContent = "RUN";
-
+  let input1 = document.createElement('input');
+  input1.id = "input1";
+  let button2 = document.createElement('button');
+  button2.className = 'prev-next-btn';
+  button2.textContent = '<';
+  let button3 = document.createElement('button');
+  button3.className = 'prev-next-btn';
+  button3.textContent = '>';
   masterbox.append(box1);
-  masterbox.append(box2);
-  masterbox.append(box3);
-  box1.append(p3);
+  box1.append(navbar)
+  navbar.append(p3);
+  navbar.append(button2)
+  navbar.append(button3)
   box1.append(p1);
   box1.append(input1);
   box1.append(button1);
   box1.append(p2);
-
-return masterbox;
+  return masterbox;
 }
 
 document.body.append(createBox());
@@ -51,5 +46,5 @@ function stringy(size){
 }
 
 p1.append(stringy);
-p3.append('NAZWA FUNKCJI');
+p3.append('NAZWA FUNKCJI TUTAJ BĘDZIE SIĘ WYŚWIETLAĆ');
 button1.addEventListener('click', event => {p2.innerHTML = stringy(input1.value)});

@@ -26,7 +26,7 @@ body{
     justify-items: center;
 }
 
-#box1, #box2, #box3{
+#box1{
     background-color: rgb(214,192,120);
     height: 300px;
     margin: 5px;
@@ -118,17 +118,47 @@ body{
 }
 
 #p3{
+    width: 200px;
+    height: 30px;
     font-family: 'Oswald', sans-serif;
     font-size: 14px;
     color: rgb(84,126,45);
+    display: block;
+    margin: 0px;
+    line-height:125%;
+}
+
+.navbar{
     padding: 5px;
+    height: 35px;
     margin: 5px;
     margin-bottom: 9px;;
     height: fit-content;
     border-radius: 10px;
-    display: block;
     border-style: solid;
     border-width: 3px;
     border-color: rgb(84,126,45);
 }
 
+.prev-next-btn{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(228, 210, 152);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(84,126,45);
+    color: rgb(84,126,45);
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    position:relative;
+    margin-left: 2px;;
+    outline: none;
+    bottom: 27px;
+    left: 200px;
+}
+
+.prev-next-btn:hover{
+    background-color: rgb(231, 240, 148);
+}
