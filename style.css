@@ -119,25 +119,26 @@ body{
 
 #p3{
     width: 200px;
-    height: 30px;
+    height: 35px;
     font-family: 'Oswald', sans-serif;
     font-size: 14px;
     color: rgb(84,126,45);
-    display: block;
     margin: 0px;
     line-height:125%;
 }
 
 .navbar{
+    display: inline-flex;
     padding: 5px;
     height: 35px;
+    width: auto;
     margin: 5px;
-    margin-bottom: 9px;;
-    height: fit-content;
+    margin-bottom: 9px;
     border-radius: 10px;
     border-style: solid;
     border-width: 3px;
     border-color: rgb(84,126,45);
+    box-sizing: content-box;
 }
 
 .prev-next-btn{
@@ -149,14 +150,11 @@ body{
     border-color: rgb(84,126,45);
     color: rgb(84,126,45);
     border-radius: 50%;
-    font-size: 16px;
-    font-weight: bold;
-    display: inline-block;
+    font-size: 12px;
     position:relative;
-    margin-left: 2px;;
+    margin-left: 2px;
     outline: none;
-    bottom: 27px;
-    left: 200px;
+    top: 2px;
 }
 
 .prev-next-btn:hover{
